@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.container .shape{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    margin: 10px;
+    font-size: 80px;
+    color: black;
+    font-weight: 300px;
+    padding: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.container .shape:hover{
+    background-color: rgb(18, 152, 152);
+}
+.displayinfo{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 40px;
+}
